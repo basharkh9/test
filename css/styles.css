@@ -447,3 +447,23 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Testimonials */
+
+.testimonial {
+  padding: 3rem;
+}
+
+.testimonial__image > img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonial .quote,
+  .testimonial .quote__author {
+    font-size: 2rem;
+  }
+  .testimonial .quote {
+    margin-left: 6rem;
+  }
+}
